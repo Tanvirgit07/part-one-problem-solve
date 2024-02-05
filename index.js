@@ -31,20 +31,23 @@
 // const vowel = countVowel(string.toLowerCase());
 // console.log('Number of vowel is : ',vowel);
 
-function longestWorld(str){
-    let indexNumber;
-    let index = [];
-    let max;
-    let sentence = str.split(" ")
-    for(let i = 0; i < sentence.length; i++){
-        indexNumber = sentence[i].length;
-        index.push(indexNumber);
-        max = Math.max(...index)
-    }
-    let mexIndex = index.indexOf(max)
-    console.log(sentence[mexIndex])
+// function longestWorld(str){
+//     let indexNumber;
+//     let index = [];
+//     let max;
+//     let sentence = str.split(" ")
+//     for(let i = 0; i < sentence.length; i++){
+//         indexNumber = sentence[i].length;
+//         index.push(indexNumber);
+//         max = Math.max(...index)
+//     }
+//     let mexIndex = index.indexOf(max)
+//     console.log(sentence[mexIndex])
      
-}
+// }
 
-const longString = 'tanvir ahmmedtonmay'
-longestWorld(longString);
+// const longString = 'tanvir ahmmedtonmay'
+// longestWorld(longString);
+
+let rand = Math.random() * 10 + 10;
+console.log(parseInt(rand));
